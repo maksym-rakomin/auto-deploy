@@ -27,5 +27,5 @@ jobs:
       # Deploy
 #      - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . pepelsbey@pepelsbey.dev:/var/www/auto-deploy-test.dev-team.su/
       #
-      - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . auto-deploy-test.dev-team.su:/www/auto-deploy-test.dev-team.su/
+      - run: cd dist && rsync -e "ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . devteam@isp.wapp.dev:1500:/www/auto-deploy-test.dev-team.su/
 
